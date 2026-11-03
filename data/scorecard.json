@@ -1,18 +1,77 @@
 {
   "totals": {
-    "predictions": 0,
-    "resolved": 0
+    "predictions": 2,
+    "resolved": 0,
+    "OPEN": 2
   },
   "overall": {
-    "n": 0,
+    "n": 2,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
     "total_r": 0.0,
     "brier": null
   },
-  "agents": [],
+  "agents": [
+    {
+      "agent": "portfolio-manager",
+      "n": 1,
+      "resolved": 0,
+      "hit_rate": null,
+      "avg_r": null,
+      "total_r": 0.0
+    },
+    {
+      "agent": "trader",
+      "n": 1,
+      "resolved": 0,
+      "hit_rate": null,
+      "avg_r": null,
+      "total_r": 0.0
+    }
+  ],
   "calibration": [],
   "insights": [],
-  "recent": []
+  "recent": [
+    {
+      "ticker": "SNPS",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-03T19:57:56+00:00",
+      "entry": 462.14,
+      "stop": 491.4,
+      "target": 422.5,
+      "confidence": 0.4,
+      "horizon_days": 25,
+      "claim": "Trim into FQ4; 422.5 swing low before 491.4",
+      "id": "SNPS-portfolio-manager-f3231133",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 462.14,
+      "fill_date": "2026-11-03",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "SNPS",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-03T19:57:56+00:00",
+      "entry": 462.14,
+      "stop": 491.4,
+      "target": 422.5,
+      "confidence": 0.4,
+      "horizon_days": 25,
+      "claim": "Trim into FQ4; 422 swing low before 491 high",
+      "id": "SNPS-trader-c53c023b",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 462.14,
+      "fill_date": "2026-11-03",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    }
+  ]
 }
