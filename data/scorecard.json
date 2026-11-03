@@ -1,0 +1,18 @@
+{
+  "totals": {
+    "predictions": 0,
+    "resolved": 0
+  },
+  "overall": {
+    "n": 0,
+    "resolved": 0,
+    "hit_rate": null,
+    "avg_r": null,
+    "total_r": 0.0,
+    "brier": null
+  },
+  "agents": [],
+  "calibration": [],
+  "insights": [],
+  "recent": []
+}
