@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 16,
+    "predictions": 17,
     "resolved": 0,
-    "OPEN": 9,
+    "OPEN": 10,
     "PENDING_ENTRY": 7
   },
   "overall": {
-    "n": 16,
+    "n": 17,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 8,
+      "n": 9,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,26 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "UBER",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-04T14:16:21+00:00",
+      "entry": 66.6,
+      "stop": 72.1,
+      "target": 64.04,
+      "confidence": 0.5,
+      "horizon_days": 42,
+      "claim": "Trim to 25%; 64.04 retest before 72.1 reclaim",
+      "id": "UBER-trader-fa414ec2",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 66.6,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "ALAB",
       "direction": "short",
