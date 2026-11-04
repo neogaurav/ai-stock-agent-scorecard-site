@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 8,
+    "predictions": 10,
     "resolved": 0,
-    "OPEN": 5,
-    "PENDING_ENTRY": 3
+    "OPEN": 6,
+    "PENDING_ENTRY": 4
   },
   "overall": {
-    "n": 8,
+    "n": 10,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 4,
+      "n": 5,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 4,
+      "n": 5,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "NBIS",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-04T02:55:48+00:00",
+      "entry": 151.64,
+      "stop": 183.5,
+      "target": 126.0,
+      "confidence": 0.45,
+      "horizon_days": 21,
+      "claim": "Cut to 25% cap before prints; 126 before 183.5",
+      "id": "NBIS-portfolio-manager-58285766",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 151.64,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "NBIS",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-04T02:55:48+00:00",
+      "entry": 159.0,
+      "stop": 183.5,
+      "target": 126.4,
+      "confidence": 0.42,
+      "horizon_days": 21,
+      "claim": "Trim into 159 rally; lower band 126 before 183.5",
+      "id": "NBIS-trader-0c693407",
+      "status": "PENDING_ENTRY",
+      "r": null,
+      "fill_price": null,
+      "fill_date": null,
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "VRT",
       "direction": "long",
