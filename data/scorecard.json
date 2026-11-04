@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 12,
+    "predictions": 14,
     "resolved": 0,
-    "OPEN": 7,
-    "PENDING_ENTRY": 5
+    "OPEN": 8,
+    "PENDING_ENTRY": 6
   },
   "overall": {
-    "n": 12,
+    "n": 14,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 6,
+      "n": 7,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 6,
+      "n": 7,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "MRVL",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-04T04:24:07+00:00",
+      "entry": 171.97,
+      "stop": 198.66,
+      "target": 158.0,
+      "confidence": 0.5,
+      "horizon_days": 42,
+      "claim": "Reduce exposure; 158 before a close above 198.66",
+      "id": "MRVL-portfolio-manager-da98a739",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 171.97,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "MRVL",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-04T04:24:07+00:00",
+      "entry": 184.04,
+      "stop": 198.66,
+      "target": 158.0,
+      "confidence": 0.4,
+      "horizon_days": 42,
+      "claim": "Sell rally into 200-day; 158 before 198.66",
+      "id": "MRVL-trader-ad45da9c",
+      "status": "PENDING_ENTRY",
+      "r": null,
+      "fill_price": null,
+      "fill_date": null,
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "INTC",
       "direction": "short",
