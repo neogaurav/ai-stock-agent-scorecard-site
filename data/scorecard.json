@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 4,
+    "predictions": 6,
     "resolved": 0,
-    "OPEN": 3,
+    "OPEN": 5,
     "PENDING_ENTRY": 1
   },
   "overall": {
-    "n": 4,
+    "n": 6,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 2,
+      "n": 3,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 2,
+      "n": 3,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "BE",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-04T01:56:35+00:00",
+      "entry": 196.25,
+      "stop": 228.0,
+      "target": 175.0,
+      "confidence": 0.5,
+      "horizon_days": 42,
+      "claim": "Triggers fired, unhedged residual; 175 before 228",
+      "id": "BE-portfolio-manager-006729a2",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 196.25,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "BE",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-04T01:56:35+00:00",
+      "entry": 196.25,
+      "stop": 228.0,
+      "target": 175.0,
+      "confidence": 0.45,
+      "horizon_days": 42,
+      "claim": "Failed 200-day reclaim; 175 before 228",
+      "id": "BE-trader-ca35c026",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 196.25,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "AMD",
       "direction": "short",
