@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 15,
+    "predictions": 16,
     "resolved": 0,
-    "OPEN": 8,
+    "OPEN": 9,
     "PENDING_ENTRY": 7
   },
   "overall": {
-    "n": 15,
+    "n": 16,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 7,
+      "n": 8,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,26 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "ALAB",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-04T13:51:56+00:00",
+      "entry": 233.62,
+      "stop": 269.4,
+      "target": 214.0,
+      "confidence": 0.5,
+      "horizon_days": 42,
+      "claim": "Reduce to half; 214 before 269.40 into December FOMC",
+      "id": "ALAB-portfolio-manager-36ea4113",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 233.62,
+      "fill_date": "2026-11-04",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "ALAB",
       "direction": "short",
