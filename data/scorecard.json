@@ -1,36 +1,36 @@
 {
   "totals": {
     "predictions": 44,
-    "resolved": 4,
-    "OPEN": 27,
+    "resolved": 8,
+    "OPEN": 23,
     "PENDING_ENTRY": 13,
-    "STOPPED": 2,
-    "TARGET_HIT": 2
+    "TARGET_HIT": 6,
+    "STOPPED": 2
   },
   "overall": {
     "n": 44,
-    "resolved": 4,
-    "hit_rate": 0.5,
-    "avg_r": -0.151,
-    "total_r": -0.61,
-    "brier": 0.2011
+    "resolved": 8,
+    "hit_rate": 0.75,
+    "avg_r": 0.777,
+    "total_r": 6.22,
+    "brier": 0.2327
   },
   "agents": [
     {
-      "agent": "portfolio-manager",
-      "n": 21,
-      "resolved": 3,
-      "hit_rate": 0.667,
-      "avg_r": 0.131,
-      "total_r": 0.39
-    },
-    {
       "agent": "trader",
       "n": 21,
-      "resolved": 1,
-      "hit_rate": 0.0,
-      "avg_r": -1.0,
-      "total_r": -1.0
+      "resolved": 2,
+      "hit_rate": 0.5,
+      "avg_r": 0.835,
+      "total_r": 1.67
+    },
+    {
+      "agent": "portfolio-manager",
+      "n": 21,
+      "resolved": 6,
+      "hit_rate": 0.833,
+      "avg_r": 0.758,
+      "total_r": 4.55
     },
     {
       "agent": "event-reviewer",
@@ -44,15 +44,15 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 2,
-      "stated": 0.39,
-      "actual": 0.0,
+      "n": 4,
+      "stated": 0.42,
+      "actual": 0.5,
       "verdict": "too few"
     },
     {
       "bucket": "50\u201360%",
-      "n": 2,
-      "stated": 0.5,
+      "n": 4,
+      "stated": 0.512,
       "actual": 1.0,
       "verdict": "too few"
     }
