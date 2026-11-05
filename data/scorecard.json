@@ -1,19 +1,19 @@
 {
   "totals": {
     "predictions": 44,
-    "resolved": 8,
-    "OPEN": 23,
+    "resolved": 9,
+    "OPEN": 22,
+    "TARGET_HIT": 7,
     "PENDING_ENTRY": 13,
-    "TARGET_HIT": 6,
     "STOPPED": 2
   },
   "overall": {
     "n": 44,
-    "resolved": 8,
-    "hit_rate": 0.75,
-    "avg_r": 0.777,
-    "total_r": 6.22,
-    "brier": 0.2327
+    "resolved": 9,
+    "hit_rate": 0.778,
+    "avg_r": 0.751,
+    "total_r": 6.76,
+    "brier": 0.2405
   },
   "agents": [
     {
@@ -27,10 +27,10 @@
     {
       "agent": "portfolio-manager",
       "n": 21,
-      "resolved": 6,
-      "hit_rate": 0.833,
-      "avg_r": 0.758,
-      "total_r": 4.55
+      "resolved": 7,
+      "hit_rate": 0.857,
+      "avg_r": 0.727,
+      "total_r": 5.09
     },
     {
       "agent": "event-reviewer",
@@ -44,9 +44,9 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 4,
-      "stated": 0.42,
-      "actual": 0.5,
+      "n": 5,
+      "stated": 0.426,
+      "actual": 0.6,
       "verdict": "too few"
     },
     {
