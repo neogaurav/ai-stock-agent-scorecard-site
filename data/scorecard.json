@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 20,
+    "predictions": 22,
     "resolved": 0,
-    "OPEN": 13,
+    "OPEN": 15,
     "PENDING_ENTRY": 7
   },
   "overall": {
-    "n": 20,
+    "n": 22,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 10,
+      "n": 11,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 10,
+      "n": 11,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "CLS",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-05T01:59:02+00:00",
+      "entry": 236.41,
+      "stop": 263.3,
+      "target": 213.7,
+      "confidence": 0.4,
+      "horizon_days": 21,
+      "claim": "Exit on broken 244 stop; 213.7 before 263.3",
+      "id": "CLS-portfolio-manager-8f0b07e9",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 236.41,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "CLS",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-05T01:59:02+00:00",
+      "entry": 236.41,
+      "stop": 263.3,
+      "target": 213.7,
+      "confidence": 0.45,
+      "horizon_days": 21,
+      "claim": "Exit on broken 244 stop; 213.7 before 263.3",
+      "id": "CLS-trader-f64afb8c",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 236.41,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "SPCX",
       "direction": "short",
