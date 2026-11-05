@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 22,
+    "predictions": 24,
     "resolved": 0,
-    "OPEN": 15,
+    "OPEN": 17,
     "PENDING_ENTRY": 7
   },
   "overall": {
-    "n": 22,
+    "n": 24,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 11,
+      "n": 12,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 11,
+      "n": 12,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "MRVL",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-05T02:15:55+00:00",
+      "entry": 159.8,
+      "stop": 184.04,
+      "target": 146.78,
+      "confidence": 0.52,
+      "horizon_days": 25,
+      "claim": "Deal overhang breaks 146.78 base before reclaiming 184.04",
+      "id": "MRVL-portfolio-manager-8903b88d",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 159.8,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "MRVL",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-05T02:15:55+00:00",
+      "entry": 159.8,
+      "stop": 184.04,
+      "target": 146.78,
+      "confidence": 0.5,
+      "horizon_days": 25,
+      "claim": "Base break to 146.78 before reclaiming 200 SMA 184.04",
+      "id": "MRVL-trader-b8378d2a",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 159.8,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "CLS",
       "direction": "short",
