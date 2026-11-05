@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 42,
+    "predictions": 43,
     "resolved": 0,
     "OPEN": 29,
-    "PENDING_ENTRY": 13
+    "PENDING_ENTRY": 14
   },
   "overall": {
-    "n": 42,
+    "n": 43,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 20,
+      "n": 21,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -42,6 +42,26 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "APP",
+      "direction": "long",
+      "agent": "trader",
+      "issued_at": "2026-11-05T14:17:38+00:00",
+      "entry": 291.0,
+      "stop": 255.0,
+      "target": 345.0,
+      "confidence": 0.45,
+      "horizon_days": 63,
+      "claim": "Add near 291 on gap hold; 345 before 255",
+      "id": "APP-trader-403860e1",
+      "status": "PENDING_ENTRY",
+      "r": null,
+      "fill_price": null,
+      "fill_date": null,
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "LITE",
       "direction": "short",
@@ -518,26 +538,6 @@
       "r": null,
       "fill_price": 141.31,
       "fill_date": "2026-11-05",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 0
-    },
-    {
-      "ticker": "UBER",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-04T14:20:53+00:00",
-      "entry": 66.6,
-      "stop": 72.1,
-      "target": 64.04,
-      "confidence": 0.55,
-      "horizon_days": 42,
-      "claim": "Trim to 25%; 64.04 retest before 72.1 reclaim",
-      "id": "UBER-portfolio-manager-7c5258bb",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 66.6,
-      "fill_date": "2026-11-04",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 0
