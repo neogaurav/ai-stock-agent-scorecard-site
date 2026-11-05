@@ -1,12 +1,12 @@
 {
   "totals": {
-    "predictions": 18,
+    "predictions": 20,
     "resolved": 0,
-    "OPEN": 11,
+    "OPEN": 13,
     "PENDING_ENTRY": 7
   },
   "overall": {
-    "n": 18,
+    "n": 20,
     "resolved": 0,
     "hit_rate": null,
     "avg_r": null,
@@ -16,7 +16,7 @@
   "agents": [
     {
       "agent": "portfolio-manager",
-      "n": 9,
+      "n": 10,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -24,7 +24,7 @@
     },
     {
       "agent": "trader",
-      "n": 9,
+      "n": 10,
       "resolved": 0,
       "hit_rate": null,
       "avg_r": null,
@@ -34,6 +34,46 @@
   "calibration": [],
   "insights": [],
   "recent": [
+    {
+      "ticker": "SPCX",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-05T01:45:30+00:00",
+      "entry": 141.31,
+      "stop": 150.1,
+      "target": 130.4,
+      "confidence": 0.45,
+      "horizon_days": 25,
+      "claim": "Cut to 25% residual; 130.4 before 150.1 by lockup",
+      "id": "SPCX-portfolio-manager-fa2cac9c",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 141.31,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
+    {
+      "ticker": "SPCX",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-05T01:45:30+00:00",
+      "entry": 141.31,
+      "stop": 150.1,
+      "target": 130.4,
+      "confidence": 0.45,
+      "horizon_days": 25,
+      "claim": "Trim to residual; 130.4 before 150.1 by lockup",
+      "id": "SPCX-trader-ec188ca8",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 141.31,
+      "fill_date": "2026-11-05",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "UBER",
       "direction": "short",
