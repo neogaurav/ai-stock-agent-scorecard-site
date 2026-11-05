@@ -12,7 +12,7 @@
     "resolved": 9,
     "hit_rate": 0.778,
     "avg_r": 0.751,
-    "total_r": 6.76,
+    "total_r": 6.75,
     "brier": 0.2405
   },
   "agents": [
