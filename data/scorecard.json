@@ -1,35 +1,35 @@
 {
   "totals": {
     "predictions": 72,
-    "resolved": 9,
-    "OPEN": 35,
-    "TARGET_HIT": 7,
-    "PENDING_ENTRY": 28,
+    "resolved": 26,
+    "OPEN": 20,
+    "TARGET_HIT": 24,
+    "PENDING_ENTRY": 26,
     "STOPPED": 2
   },
   "overall": {
     "n": 72,
-    "resolved": 9,
-    "win_rate": 0.778,
-    "hit_rate": 0.778,
-    "avg_r": 0.306,
-    "total_r": 2.75,
+    "resolved": 26,
+    "win_rate": 0.923,
+    "hit_rate": 0.923,
+    "avg_r": 0.676,
+    "total_r": 17.57,
     "early_closes": 0,
     "early_wins": 0,
     "early_losses": 0,
     "early_avg_r": null,
     "cancelled": 0,
-    "brier": 0.2405
+    "brier": 0.2407
   },
   "agents": [
     {
       "agent": "portfolio-manager",
       "n": 35,
-      "resolved": 7,
-      "win_rate": 0.857,
-      "hit_rate": 0.857,
-      "avg_r": 0.441,
-      "total_r": 3.08,
+      "resolved": 16,
+      "win_rate": 0.938,
+      "hit_rate": 0.938,
+      "avg_r": 0.691,
+      "total_r": 11.05,
       "early_closes": 0,
       "early_wins": 0,
       "early_losses": 0,
@@ -39,11 +39,11 @@
     {
       "agent": "trader",
       "n": 35,
-      "resolved": 2,
-      "win_rate": 0.5,
-      "hit_rate": 0.5,
-      "avg_r": -0.165,
-      "total_r": -0.33,
+      "resolved": 8,
+      "win_rate": 0.875,
+      "hit_rate": 0.875,
+      "avg_r": 0.66,
+      "total_r": 5.28,
       "early_closes": 0,
       "early_wins": 0,
       "early_losses": 0,
@@ -53,11 +53,11 @@
     {
       "agent": "event-reviewer",
       "n": 2,
-      "resolved": 0,
-      "win_rate": null,
-      "hit_rate": null,
-      "avg_r": null,
-      "total_r": 0.0,
+      "resolved": 2,
+      "win_rate": 1.0,
+      "hit_rate": 1.0,
+      "avg_r": 0.622,
+      "total_r": 1.24,
       "early_closes": 0,
       "early_wins": 0,
       "early_losses": 0,
@@ -68,20 +68,36 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 5,
-      "stated": 0.426,
-      "actual": 0.6,
-      "verdict": "too few"
+      "n": 10,
+      "stated": 0.433,
+      "actual": 0.8,
+      "verdict": "underconfident"
     },
     {
       "bucket": "50\u201360%",
-      "n": 4,
-      "stated": 0.512,
+      "n": 13,
+      "stated": 0.509,
+      "actual": 1.0,
+      "verdict": "underconfident"
+    },
+    {
+      "bucket": "60\u201370%",
+      "n": 1,
+      "stated": 0.6,
+      "actual": 1.0,
+      "verdict": "too few"
+    },
+    {
+      "bucket": "70\u201380%",
+      "n": 2,
+      "stated": 0.7,
       "actual": 1.0,
       "verdict": "too few"
     }
   ],
-  "insights": [],
+  "insights": [
+    "portfolio-manager leads with +0.69R per call over 16 resolved calls."
+  ],
   "recent": [
     {
       "ticker": "AMAT",
