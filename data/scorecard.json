@@ -1,14 +1,14 @@
 {
   "totals": {
-    "predictions": 44,
+    "predictions": 45,
     "resolved": 9,
-    "OPEN": 22,
+    "OPEN": 23,
     "TARGET_HIT": 7,
     "PENDING_ENTRY": 13,
     "STOPPED": 2
   },
   "overall": {
-    "n": 44,
+    "n": 45,
     "resolved": 9,
     "hit_rate": 0.778,
     "avg_r": 0.751,
@@ -18,7 +18,7 @@
   "agents": [
     {
       "agent": "trader",
-      "n": 21,
+      "n": 22,
       "resolved": 2,
       "hit_rate": 0.5,
       "avg_r": 0.835,
@@ -59,6 +59,26 @@
   ],
   "insights": [],
   "recent": [
+    {
+      "ticker": "GEV",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-06T00:31:21+00:00",
+      "entry": 770.51,
+      "stop": 862.0,
+      "target": 710.0,
+      "confidence": 0.42,
+      "horizon_days": 21,
+      "claim": "Trim to foothold; 710 shelf before 862 pivot reclaim",
+      "id": "GEV-trader-b5b03741",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 770.51,
+      "fill_date": "2026-11-06",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0
+    },
     {
       "ticker": "APP",
       "direction": "long",
@@ -534,26 +554,6 @@
       "status": "OPEN",
       "r": null,
       "fill_price": 236.41,
-      "fill_date": "2026-11-05",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 0
-    },
-    {
-      "ticker": "SPCX",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-05T01:45:30+00:00",
-      "entry": 141.31,
-      "stop": 150.1,
-      "target": 130.4,
-      "confidence": 0.45,
-      "horizon_days": 25,
-      "claim": "Cut to 25% residual; 130.4 before 150.1 by lockup",
-      "id": "SPCX-portfolio-manager-fa2cac9c",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 141.31,
       "fill_date": "2026-11-05",
       "exit_price": null,
       "exit_date": null,
