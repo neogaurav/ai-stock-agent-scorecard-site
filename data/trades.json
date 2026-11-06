@@ -21,7 +21,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 430.0,
     "r": 0.54,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "BE-portfolio-manager-006729a2",
@@ -45,7 +48,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 175.0,
     "r": 0.669,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "BE-trader-ca35c026",
@@ -69,7 +75,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 175.0,
     "r": 0.669,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "VRT-portfolio-manager-28979053",
@@ -93,7 +102,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 195.0,
     "r": -1.0,
-    "days_held": 0
+    "days_held": 0,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "VRT-trader-dd067316",
@@ -117,7 +129,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 195.0,
     "r": -1.0,
-    "days_held": 0
+    "days_held": 0,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "NBIS-portfolio-manager-58285766",
@@ -141,7 +156,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 126.0,
     "r": 0.805,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "INTC-portfolio-manager-aa9a4408",
@@ -165,7 +183,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 54.8,
     "r": 0.68,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-portfolio-manager-da98a739",
@@ -189,7 +210,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 151.41,
     "r": 0.77,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "ALAB-portfolio-manager-36ea4113",
@@ -213,7 +237,10 @@
     "exited_on": "2026-11-05",
     "exited_at": 211.41,
     "r": 0.621,
-    "days_held": 1
+    "days_held": 1,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "GEV-trader-b5b03741",
@@ -237,7 +264,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "GEV-portfolio-manager-f06f01c5",
@@ -261,7 +291,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "TXG-portfolio-manager-df3de079",
@@ -285,7 +318,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "TXG-trader-84562d62",
@@ -309,7 +345,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-portfolio-manager-831b70b7",
@@ -333,7 +372,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-trader-22bf9239",
@@ -357,7 +399,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "INTC-trader-ba720154",
@@ -381,7 +426,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "ALAB-portfolio-manager-f2c6ba17",
@@ -405,7 +453,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "INTC-portfolio-manager-1b961ee5",
@@ -429,7 +480,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "ALAB-trader-d4f4a9a5",
@@ -453,7 +507,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SKHY-portfolio-manager-3fe18a3e",
@@ -477,7 +534,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SKHY-trader-e8565a34",
@@ -501,7 +561,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "CLS-portfolio-manager-f72ce1a5",
@@ -525,7 +588,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "CLS-trader-48084648",
@@ -549,7 +615,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MXL-portfolio-manager-89718b7b",
@@ -573,7 +642,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MXL-trader-87cc222d",
@@ -597,7 +669,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SPCX-portfolio-manager-777362ac",
@@ -621,7 +696,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SPCX-trader-8f763f71",
@@ -645,7 +723,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AVGO-trader-fe440cbf",
@@ -669,7 +750,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AVGO-portfolio-manager-397ef56d",
@@ -693,7 +777,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "TSM-portfolio-manager-d2a95f3c",
@@ -717,7 +804,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "TSM-trader-562a4aa2",
@@ -741,7 +831,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "STX-portfolio-manager-1d89b522",
@@ -765,7 +858,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "STX-trader-3c5225f5",
@@ -789,7 +885,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MU-portfolio-manager-6149c71b",
@@ -813,7 +912,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MU-trader-62fc945a",
@@ -837,7 +939,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AMAT-portfolio-manager-7ef75bf2",
@@ -861,7 +966,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AMAT-trader-d34938e4",
@@ -885,7 +993,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SPCX-portfolio-manager-fa2cac9c",
@@ -909,7 +1020,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SPCX-trader-ec188ca8",
@@ -933,7 +1047,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "CLS-portfolio-manager-8f0b07e9",
@@ -957,7 +1074,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "CLS-trader-f64afb8c",
@@ -981,7 +1101,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-portfolio-manager-8903b88d",
@@ -1005,7 +1128,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-trader-b8378d2a",
@@ -1029,7 +1155,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "ALAB-event-reviewer-1bd07158",
@@ -1053,7 +1182,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SKHY-portfolio-manager-69d40efc",
@@ -1077,7 +1209,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SKHY-trader-b977f3e0",
@@ -1101,7 +1236,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MXL-portfolio-manager-1b733839",
@@ -1125,7 +1263,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MXL-trader-bfb423cb",
@@ -1149,7 +1290,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MU-event-reviewer-5ce558f7",
@@ -1173,7 +1317,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AVGO-trader-60244fd9",
@@ -1197,7 +1344,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AVGO-portfolio-manager-57b08cb0",
@@ -1221,7 +1371,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "GOOG-trader-948023ec",
@@ -1245,7 +1398,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "GOOG-portfolio-manager-26408b12",
@@ -1269,7 +1425,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "VST-portfolio-manager-33123f27",
@@ -1293,7 +1452,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "VST-trader-1213029a",
@@ -1317,7 +1479,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "STX-portfolio-manager-f561c708",
@@ -1341,7 +1506,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "STX-trader-ce5bdcc6",
@@ -1365,7 +1533,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AMAT-portfolio-manager-ad820b67",
@@ -1389,7 +1560,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AMAT-trader-b0b9f823",
@@ -1413,7 +1587,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "LITE-portfolio-manager-85f32124",
@@ -1437,7 +1614,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "LITE-trader-1213b84f",
@@ -1461,7 +1641,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "APP-trader-403860e1",
@@ -1485,7 +1668,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "APP-portfolio-manager-3dd8b51a",
@@ -1509,7 +1695,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "AMD-trader-3a49f79d",
@@ -1533,7 +1722,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "NBIS-trader-0c693407",
@@ -1557,7 +1749,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "INTC-trader-0ef7c1f8",
@@ -1581,7 +1776,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "MRVL-trader-ad45da9c",
@@ -1605,7 +1803,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "ALAB-trader-26fe95a0",
@@ -1629,7 +1830,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "UBER-trader-fa414ec2",
@@ -1653,7 +1857,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "UBER-portfolio-manager-7c5258bb",
@@ -1677,7 +1884,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SNPS-portfolio-manager-f3231133",
@@ -1701,7 +1911,10 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   },
   {
     "id": "SNPS-trader-c53c023b",
@@ -1725,6 +1938,9 @@
     "exited_on": null,
     "exited_at": null,
     "r": null,
-    "days_held": null
+    "days_held": null,
+    "early": false,
+    "close_reason": null,
+    "closed_on": null
   }
 ]

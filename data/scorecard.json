@@ -10,9 +10,15 @@
   "overall": {
     "n": 72,
     "resolved": 9,
+    "win_rate": 0.778,
     "hit_rate": 0.778,
     "avg_r": 0.306,
     "total_r": 2.75,
+    "early_closes": 0,
+    "early_wins": 0,
+    "early_losses": 0,
+    "early_avg_r": null,
+    "cancelled": 0,
     "brier": 0.2405
   },
   "agents": [
@@ -20,25 +26,43 @@
       "agent": "portfolio-manager",
       "n": 35,
       "resolved": 7,
+      "win_rate": 0.857,
       "hit_rate": 0.857,
       "avg_r": 0.441,
-      "total_r": 3.08
+      "total_r": 3.08,
+      "early_closes": 0,
+      "early_wins": 0,
+      "early_losses": 0,
+      "early_avg_r": null,
+      "cancelled": 0
     },
     {
       "agent": "trader",
       "n": 35,
       "resolved": 2,
+      "win_rate": 0.5,
       "hit_rate": 0.5,
       "avg_r": -0.165,
-      "total_r": -0.33
+      "total_r": -0.33,
+      "early_closes": 0,
+      "early_wins": 0,
+      "early_losses": 0,
+      "early_avg_r": null,
+      "cancelled": 0
     },
     {
       "agent": "event-reviewer",
       "n": 2,
       "resolved": 0,
+      "win_rate": null,
       "hit_rate": null,
       "avg_r": null,
-      "total_r": 0.0
+      "total_r": 0.0,
+      "early_closes": 0,
+      "early_wins": 0,
+      "early_losses": 0,
+      "early_avg_r": null,
+      "cancelled": 0
     }
   ],
   "calibration": [
@@ -77,7 +101,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "AMAT",
@@ -97,7 +124,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MU",
@@ -117,7 +147,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MU",
@@ -137,7 +170,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "STX",
@@ -157,7 +193,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "STX",
@@ -177,7 +216,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "TSM",
@@ -197,7 +239,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "TSM",
@@ -217,7 +262,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "AVGO",
@@ -237,7 +285,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "AVGO",
@@ -257,7 +308,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "SPCX",
@@ -277,7 +331,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "SPCX",
@@ -297,7 +354,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MXL",
@@ -317,7 +377,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MXL",
@@ -337,7 +400,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "CLS",
@@ -357,7 +423,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "CLS",
@@ -377,7 +446,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "SKHY",
@@ -397,7 +469,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "SKHY",
@@ -417,7 +492,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "ALAB",
@@ -437,7 +515,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "ALAB",
@@ -457,7 +538,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "INTC",
@@ -477,7 +561,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "INTC",
@@ -497,7 +584,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MRVL",
@@ -517,7 +607,10 @@
       "fill_date": "2026-11-06",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "MRVL",
@@ -537,7 +630,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     },
     {
       "ticker": "TXG",
@@ -557,7 +653,10 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
     }
   ]
 }
