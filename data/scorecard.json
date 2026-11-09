@@ -15,7 +15,7 @@
     "win_rate": 0.667,
     "hit_rate": 0.765,
     "avg_r": 0.261,
-    "total_r": 10.98,
+    "total_r": 10.97,
     "early_closes": 8,
     "early_wins": 2,
     "early_losses": 6,
@@ -49,7 +49,7 @@
       "early_closes": 5,
       "early_wins": 1,
       "early_losses": 4,
-      "early_avg_r": -0.399,
+      "early_avg_r": -0.4,
       "cancelled": 1
     },
     {
@@ -63,7 +63,7 @@
       "early_closes": 3,
       "early_wins": 1,
       "early_losses": 2,
-      "early_avg_r": -0.497,
+      "early_avg_r": -0.498,
       "cancelled": 4
     }
   ],
