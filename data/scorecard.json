@@ -260,7 +260,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -283,7 +283,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -306,7 +306,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -329,7 +329,7 @@
       "fill_date": "2026-11-09",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -352,7 +352,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -375,7 +375,7 @@
       "fill_date": "2026-11-09",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -398,7 +398,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -421,7 +421,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -444,7 +444,7 @@
       "fill_date": "2026-11-09",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -467,7 +467,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -490,7 +490,7 @@
       "fill_date": "2026-11-07",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -513,7 +513,7 @@
       "fill_date": "2026-11-09",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -536,7 +536,7 @@
       "fill_date": "2026-11-07",
       "exit_price": 143.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -559,7 +559,7 @@
       "fill_date": "2026-11-07",
       "exit_price": 143.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -582,7 +582,7 @@
       "fill_date": "2026-11-07",
       "exit_price": 128.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -605,7 +605,7 @@
       "fill_date": "2026-11-07",
       "exit_price": 128.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -628,7 +628,7 @@
       "fill_date": "2026-11-09",
       "exit_price": 365.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -651,7 +651,7 @@
       "fill_date": "2026-11-09",
       "exit_price": 365.0,
       "exit_date": "2026-11-09",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -674,7 +674,7 @@
       "fill_date": "2026-11-09",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
