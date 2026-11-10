@@ -1,10 +1,10 @@
 {
   "totals": {
     "predictions": 94,
-    "resolved": 44,
-    "OPEN": 31,
+    "resolved": 47,
+    "OPEN": 28,
     "TARGET_HIT": 26,
-    "STOPPED": 10,
+    "STOPPED": 13,
     "PENDING_ENTRY": 10,
     "CANCELLED": 5,
     "CLOSING": 4,
@@ -12,17 +12,17 @@
   },
   "overall": {
     "n": 94,
-    "resolved": 44,
-    "win_rate": 0.636,
-    "hit_rate": 0.722,
-    "avg_r": 0.204,
-    "total_r": 8.99,
+    "resolved": 47,
+    "win_rate": 0.596,
+    "hit_rate": 0.667,
+    "avg_r": 0.127,
+    "total_r": 5.99,
     "early_closes": 8,
     "early_wins": 2,
     "early_losses": 6,
     "early_avg_r": -0.434,
     "cancelled": 5,
-    "brier": 0.2322
+    "brier": 0.2312
   },
   "agents": [
     {
@@ -42,11 +42,11 @@
     {
       "agent": "portfolio-manager",
       "n": 45,
-      "resolved": 26,
-      "win_rate": 0.654,
-      "hit_rate": 0.762,
-      "avg_r": 0.249,
-      "total_r": 6.48,
+      "resolved": 27,
+      "win_rate": 0.63,
+      "hit_rate": 0.727,
+      "avg_r": 0.203,
+      "total_r": 5.48,
       "early_closes": 5,
       "early_wins": 1,
       "early_losses": 4,
@@ -56,11 +56,11 @@
     {
       "agent": "trader",
       "n": 45,
-      "resolved": 16,
-      "win_rate": 0.562,
-      "hit_rate": 0.615,
-      "avg_r": 0.079,
-      "total_r": 1.27,
+      "resolved": 18,
+      "win_rate": 0.5,
+      "hit_rate": 0.533,
+      "avg_r": -0.041,
+      "total_r": -0.73,
       "early_closes": 3,
       "early_wins": 1,
       "early_losses": 2,
@@ -71,16 +71,16 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 16,
-      "stated": 0.427,
-      "actual": 0.5,
-      "verdict": "close"
+      "n": 18,
+      "stated": 0.429,
+      "actual": 0.444,
+      "verdict": "calibrated"
     },
     {
       "bucket": "50\u201360%",
-      "n": 17,
-      "stated": 0.516,
-      "actual": 0.882,
+      "n": 18,
+      "stated": 0.515,
+      "actual": 0.833,
       "verdict": "underconfident"
     },
     {
@@ -99,7 +99,8 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with +0.25R per call over 26 resolved calls.",
+    "portfolio-manager leads with +0.20R per call over 27 resolved calls.",
+    "trader is net negative (-0.04R per call); weigh it less or change its horizon.",
     "portfolio-manager closed 5 calls early (1 up, 4 down, -0.40R on average).",
     "trader closed 3 calls early (1 up, 2 down, -0.49R on average)."
   ],
