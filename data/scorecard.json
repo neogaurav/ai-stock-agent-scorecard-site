@@ -2,11 +2,11 @@
   "totals": {
     "predictions": 106,
     "resolved": 57,
-    "OPEN": 29,
+    "OPEN": 30,
     "TARGET_HIT": 26,
     "STOPPED": 21,
-    "PENDING_ENTRY": 13,
     "CANCELLED": 7,
+    "PENDING_ENTRY": 12,
     "CLOSED_EARLY": 10
   },
   "overall": {
