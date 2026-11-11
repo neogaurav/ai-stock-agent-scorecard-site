@@ -1,21 +1,21 @@
 {
   "totals": {
     "predictions": 106,
-    "resolved": 55,
-    "OPEN": 31,
+    "resolved": 57,
+    "OPEN": 29,
     "TARGET_HIT": 26,
-    "STOPPED": 19,
+    "STOPPED": 21,
     "PENDING_ENTRY": 13,
     "CANCELLED": 7,
     "CLOSED_EARLY": 10
   },
   "overall": {
     "n": 106,
-    "resolved": 55,
-    "win_rate": 0.509,
-    "hit_rate": 0.578,
-    "avg_r": -0.073,
-    "total_r": -3.99,
+    "resolved": 57,
+    "win_rate": 0.491,
+    "hit_rate": 0.553,
+    "avg_r": -0.105,
+    "total_r": -5.99,
     "early_closes": 10,
     "early_wins": 2,
     "early_losses": 8,
@@ -47,11 +47,11 @@
     {
       "agent": "portfolio-manager",
       "n": 51,
-      "resolved": 31,
-      "win_rate": 0.548,
-      "hit_rate": 0.64,
-      "avg_r": 0.021,
-      "total_r": 0.65,
+      "resolved": 32,
+      "win_rate": 0.531,
+      "hit_rate": 0.615,
+      "avg_r": -0.011,
+      "total_r": -0.35,
       "early_closes": 6,
       "early_wins": 1,
       "early_losses": 5,
@@ -64,11 +64,11 @@
     {
       "agent": "trader",
       "n": 51,
-      "resolved": 22,
-      "win_rate": 0.409,
-      "hit_rate": 0.444,
-      "avg_r": -0.267,
-      "total_r": -5.88,
+      "resolved": 23,
+      "win_rate": 0.391,
+      "hit_rate": 0.421,
+      "avg_r": -0.299,
+      "total_r": -6.88,
       "early_closes": 4,
       "early_wins": 1,
       "early_losses": 3,
@@ -82,16 +82,16 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 23,
+      "n": 24,
       "stated": 0.427,
-      "actual": 0.348,
+      "actual": 0.333,
       "verdict": "close"
     },
     {
       "bucket": "50\u201360%",
-      "n": 19,
-      "stated": 0.517,
-      "actual": 0.789,
+      "n": 20,
+      "stated": 0.516,
+      "actual": 0.75,
       "verdict": "underconfident"
     },
     {
@@ -110,9 +110,10 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with +0.02R per call over 31 resolved calls.",
-    "trader is net negative (-0.27R per call); weigh it less or change its horizon.",
-    "portfolio-manager loses on horizons under 30 days (-0.05R) but wins at 30+ (+0.08R).",
+    "portfolio-manager leads with -0.01R per call over 32 resolved calls.",
+    "portfolio-manager is net negative (-0.01R per call); weigh it less or change its horizon.",
+    "trader is net negative (-0.30R per call); weigh it less or change its horizon.",
+    "portfolio-manager loses on horizons under 30 days (-0.11R) but wins at 30+ (+0.08R).",
     "portfolio-manager closed 6 calls early (1 up, 5 down, -0.56R on average).",
     "trader closed 4 calls early (1 up, 3 down, -0.71R on average)."
   ],
