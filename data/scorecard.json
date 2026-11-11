@@ -1,8 +1,8 @@
 {
   "totals": {
-    "predictions": 105,
+    "predictions": 106,
     "resolved": 47,
-    "OPEN": 35,
+    "OPEN": 36,
     "TARGET_HIT": 26,
     "STOPPED": 13,
     "PENDING_ENTRY": 14,
@@ -11,7 +11,7 @@
     "CLOSED_EARLY": 8
   },
   "overall": {
-    "n": 105,
+    "n": 106,
     "resolved": 47,
     "win_rate": 0.596,
     "hit_rate": 0.667,
@@ -47,7 +47,7 @@
     },
     {
       "agent": "portfolio-manager",
-      "n": 50,
+      "n": 51,
       "resolved": 27,
       "win_rate": 0.63,
       "hit_rate": 0.727,
@@ -117,6 +117,29 @@
     "trader closed 3 calls early (1 up, 2 down, -0.49R on average)."
   ],
   "recent": [
+    {
+      "ticker": "NVDA",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-11T03:05:49+00:00",
+      "entry": 168.89,
+      "stop": 192.0,
+      "target": 155.84,
+      "confidence": 0.5,
+      "horizon_days": 21,
+      "claim": "Trim to 25% before print; 155.84 before 192 reclaim",
+      "id": "NVDA-portfolio-manager-de129833",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 168.89,
+      "fill_date": "2026-11-11",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "NVDA",
       "direction": "short",
@@ -662,29 +685,6 @@
       "r": null,
       "fill_price": 101.97,
       "fill_date": "2026-11-07",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "NOW",
-      "direction": "short",
-      "agent": "trader",
-      "issued_at": "2026-11-07T02:47:03+00:00",
-      "entry": 109.0,
-      "stop": 116.5,
-      "target": 98.0,
-      "confidence": 0.45,
-      "horizon_days": 63,
-      "claim": "Trim rallies into 109; 98 retest before 116.5",
-      "id": "NOW-trader-b6881e8e",
-      "status": "PENDING_ENTRY",
-      "r": null,
-      "fill_price": null,
-      "fill_date": null,
       "exit_price": null,
       "exit_date": null,
       "bars_used": 2,
