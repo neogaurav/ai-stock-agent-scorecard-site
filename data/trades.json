@@ -2169,8 +2169,8 @@
     "horizon_days": 42,
     "confidence": 0.6,
     "claim": "Trim to 0.3x complete; April gap 429 before 605",
-    "status": "OPEN",
-    "status_label": "Open",
+    "status": "CLOSING",
+    "status_label": "Closing at next open",
     "group": "open",
     "entered_on": "2026-11-07",
     "entered_at": 460.99,
@@ -2178,10 +2178,10 @@
     "exited_at": null,
     "r": null,
     "days_held": null,
-    "early": false,
+    "early": true,
     "reentry_of": null,
-    "close_reason": null,
-    "closed_on": null
+    "close_reason": "Hot CPI Sell trigger vs 1.7-ATR CoreWeave rally above 524.13; rerun",
+    "closed_on": "2026-11-12"
   },
   {
     "id": "TXG-event-reviewer-de7cf2f9",
