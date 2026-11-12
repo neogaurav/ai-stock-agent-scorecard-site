@@ -1,22 +1,22 @@
 {
   "totals": {
     "predictions": 114,
-    "resolved": 60,
-    "OPEN": 34,
+    "resolved": 62,
+    "OPEN": 35,
     "TARGET_HIT": 29,
-    "STOPPED": 21,
+    "STOPPED": 23,
     "CANCELLED": 7,
-    "PENDING_ENTRY": 9,
-    "CLOSING": 4,
+    "PENDING_ENTRY": 8,
+    "CLOSING": 2,
     "CLOSED_EARLY": 10
   },
   "overall": {
     "n": 114,
-    "resolved": 60,
-    "win_rate": 0.517,
-    "hit_rate": 0.58,
-    "avg_r": -0.048,
-    "total_r": -2.88,
+    "resolved": 62,
+    "win_rate": 0.5,
+    "hit_rate": 0.558,
+    "avg_r": -0.079,
+    "total_r": -4.88,
     "early_closes": 10,
     "early_wins": 2,
     "early_losses": 8,
@@ -25,7 +25,7 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2295
+    "brier": 0.2286
   },
   "agents": [
     {
@@ -48,11 +48,11 @@
     {
       "agent": "portfolio-manager",
       "n": 55,
-      "resolved": 33,
-      "win_rate": 0.545,
-      "hit_rate": 0.63,
-      "avg_r": 0.012,
-      "total_r": 0.4,
+      "resolved": 34,
+      "win_rate": 0.529,
+      "hit_rate": 0.607,
+      "avg_r": -0.018,
+      "total_r": -0.6,
       "early_closes": 6,
       "early_wins": 1,
       "early_losses": 5,
@@ -65,11 +65,11 @@
     {
       "agent": "trader",
       "n": 55,
-      "resolved": 25,
-      "win_rate": 0.44,
-      "hit_rate": 0.476,
-      "avg_r": -0.181,
-      "total_r": -4.53,
+      "resolved": 26,
+      "win_rate": 0.423,
+      "hit_rate": 0.455,
+      "avg_r": -0.213,
+      "total_r": -5.53,
       "early_closes": 4,
       "early_wins": 1,
       "early_losses": 3,
@@ -83,16 +83,16 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 25,
-      "stated": 0.427,
-      "actual": 0.36,
+      "n": 26,
+      "stated": 0.426,
+      "actual": 0.346,
       "verdict": "close"
     },
     {
       "bucket": "50\u201360%",
-      "n": 22,
-      "stated": 0.515,
-      "actual": 0.773,
+      "n": 23,
+      "stated": 0.514,
+      "actual": 0.739,
       "verdict": "underconfident"
     },
     {
@@ -111,9 +111,10 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with +0.01R per call over 33 resolved calls.",
-    "trader is net negative (-0.18R per call); weigh it less or change its horizon.",
-    "portfolio-manager loses on horizons under 30 days (-0.06R) but wins at 30+ (+0.08R).",
+    "portfolio-manager leads with -0.02R per call over 34 resolved calls.",
+    "portfolio-manager is net negative (-0.02R per call); weigh it less or change its horizon.",
+    "trader is net negative (-0.21R per call); weigh it less or change its horizon.",
+    "portfolio-manager loses on horizons under 30 days (-0.06R) but wins at 30+ (+0.02R).",
     "portfolio-manager closed 6 calls early (1 up, 5 down, -0.56R on average).",
     "trader closed 4 calls early (1 up, 3 down, -0.71R on average)."
   ],
@@ -523,7 +524,7 @@
       "id": "COHR-trader-ccbfed32",
       "status": "OPEN",
       "r": null,
-      "fill_price": 235.66000366210938,
+      "fill_price": 221.0,
       "fill_date": "2026-11-12",
       "exit_price": null,
       "exit_date": null,
@@ -567,10 +568,10 @@
       "horizon_days": 42,
       "claim": "Trim at 10 EMA; 112 before 155 into earnings",
       "id": "CRDO-trader-39472b7e",
-      "status": "PENDING_ENTRY",
+      "status": "OPEN",
       "r": null,
-      "fill_price": null,
-      "fill_date": null,
+      "fill_price": 138.85,
+      "fill_date": "2026-11-12",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 1,
