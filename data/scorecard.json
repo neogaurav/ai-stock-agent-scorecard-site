@@ -1,8 +1,8 @@
 {
   "totals": {
-    "predictions": 111,
+    "predictions": 112,
     "resolved": 57,
-    "OPEN": 31,
+    "OPEN": 32,
     "TARGET_HIT": 26,
     "STOPPED": 21,
     "CANCELLED": 7,
@@ -11,7 +11,7 @@
     "CLOSED_EARLY": 10
   },
   "overall": {
-    "n": 111,
+    "n": 112,
     "resolved": 57,
     "win_rate": 0.491,
     "hit_rate": 0.553,
@@ -47,7 +47,7 @@
     },
     {
       "agent": "portfolio-manager",
-      "n": 53,
+      "n": 54,
       "resolved": 32,
       "win_rate": 0.531,
       "hit_rate": 0.615,
@@ -119,6 +119,29 @@
     "trader closed 4 calls early (1 up, 3 down, -0.71R on average)."
   ],
   "recent": [
+    {
+      "ticker": "VRT",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-12T03:06:36+00:00",
+      "entry": 206.51,
+      "stop": 225.0,
+      "target": 188.0,
+      "confidence": 0.47,
+      "horizon_days": 63,
+      "claim": "Reduce long below broken stop; 188 before 225",
+      "id": "VRT-portfolio-manager-67d3dac0",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 206.51,
+      "fill_date": "2026-11-12",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "VRT",
       "direction": "short",
@@ -660,29 +683,6 @@
       "horizon_days": 30,
       "claim": "Trim to 0.5x before Q3; 4.17 before 6.00",
       "id": "DUOT-portfolio-manager-f169f741",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 5.02,
-      "fill_date": "2026-11-07",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 3,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "DUOT",
-      "direction": "short",
-      "agent": "trader",
-      "issued_at": "2026-11-07T21:26:27+00:00",
-      "entry": 5.02,
-      "stop": 6.6,
-      "target": 4.17,
-      "confidence": 0.5,
-      "horizon_days": 42,
-      "claim": "Trim before Q3; 4.17 before 6.60",
-      "id": "DUOT-trader-afe853d0",
       "status": "OPEN",
       "r": null,
       "fill_price": 5.02,
