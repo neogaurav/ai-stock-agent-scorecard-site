@@ -1,9 +1,9 @@
 {
   "totals": {
     "predictions": 146,
-    "resolved": 82,
-    "OPEN": 40,
-    "TARGET_HIT": 34,
+    "resolved": 84,
+    "OPEN": 38,
+    "TARGET_HIT": 36,
     "STOPPED": 29,
     "CANCELLED": 10,
     "PENDING_ENTRY": 13,
@@ -12,11 +12,11 @@
   },
   "overall": {
     "n": 146,
-    "resolved": 82,
-    "win_rate": 0.476,
-    "hit_rate": 0.54,
-    "avg_r": -0.058,
-    "total_r": -4.75,
+    "resolved": 84,
+    "win_rate": 0.488,
+    "hit_rate": 0.554,
+    "avg_r": -0.039,
+    "total_r": -3.27,
     "early_closes": 19,
     "early_wins": 5,
     "early_losses": 14,
@@ -25,7 +25,7 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2277
+    "brier": 0.2297
   },
   "agents": [
     {
@@ -48,11 +48,11 @@
     {
       "agent": "portfolio-manager",
       "n": 69,
-      "resolved": 43,
-      "win_rate": 0.488,
-      "hit_rate": 0.576,
-      "avg_r": -0.039,
-      "total_r": -1.67,
+      "resolved": 44,
+      "win_rate": 0.5,
+      "hit_rate": 0.588,
+      "avg_r": -0.017,
+      "total_r": -0.76,
       "early_closes": 10,
       "early_wins": 2,
       "early_losses": 8,
@@ -65,11 +65,11 @@
     {
       "agent": "trader",
       "n": 70,
-      "resolved": 36,
-      "win_rate": 0.444,
-      "hit_rate": 0.464,
-      "avg_r": -0.106,
-      "total_r": -3.81,
+      "resolved": 37,
+      "win_rate": 0.459,
+      "hit_rate": 0.483,
+      "avg_r": -0.087,
+      "total_r": -3.24,
       "early_closes": 8,
       "early_wins": 3,
       "early_losses": 5,
@@ -83,16 +83,16 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 36,
+      "n": 37,
       "stated": 0.421,
-      "actual": 0.361,
-      "verdict": "close"
+      "actual": 0.378,
+      "verdict": "calibrated"
     },
     {
       "bucket": "50\u201360%",
-      "n": 24,
+      "n": 25,
       "stated": 0.513,
-      "actual": 0.75,
+      "actual": 0.76,
       "verdict": "underconfident"
     },
     {
@@ -111,9 +111,10 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with -0.04R per call over 43 resolved calls.",
-    "portfolio-manager is net negative (-0.04R per call); weigh it less or change its horizon.",
-    "trader is net negative (-0.11R per call); weigh it less or change its horizon.",
+    "portfolio-manager leads with -0.02R per call over 44 resolved calls.",
+    "portfolio-manager is net negative (-0.02R per call); weigh it less or change its horizon.",
+    "trader is net negative (-0.09R per call); weigh it less or change its horizon.",
+    "portfolio-manager loses on horizons under 30 days (-0.04R) but wins at 30+ (+0.01R).",
     "portfolio-manager closed 10 calls early (2 up, 8 down, -0.43R on average).",
     "trader closed 8 calls early (3 up, 5 down, -0.40R on average)."
   ],
@@ -481,7 +482,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -504,7 +505,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -527,7 +528,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -550,7 +551,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -573,7 +574,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -596,7 +597,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -619,7 +620,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -642,7 +643,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -665,7 +666,7 @@
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -688,7 +689,7 @@
       "fill_date": "2026-11-13",
       "exit_price": 237.6,
       "exit_date": "2026-11-16",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
