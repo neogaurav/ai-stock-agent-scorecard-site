@@ -1,8 +1,8 @@
 {
   "totals": {
-    "predictions": 138,
+    "predictions": 139,
     "resolved": 82,
-    "OPEN": 36,
+    "OPEN": 37,
     "TARGET_HIT": 34,
     "STOPPED": 29,
     "CANCELLED": 10,
@@ -11,7 +11,7 @@
     "CLOSING": 1
   },
   "overall": {
-    "n": 138,
+    "n": 139,
     "resolved": 82,
     "win_rate": 0.476,
     "hit_rate": 0.54,
@@ -64,7 +64,7 @@
     },
     {
       "agent": "trader",
-      "n": 66,
+      "n": 67,
       "resolved": 36,
       "win_rate": 0.444,
       "hit_rate": 0.464,
@@ -118,6 +118,29 @@
     "trader closed 8 calls early (3 up, 5 down, -0.39R on average)."
   ],
   "recent": [
+    {
+      "ticker": "STX",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-17T02:32:41+00:00",
+      "entry": 499.0,
+      "stop": 533.14,
+      "target": 461.0,
+      "confidence": 0.5,
+      "horizon_days": 21,
+      "claim": "Cut to 0.15x; 461 support retest before reclaiming 533",
+      "id": "STX-trader-3e2175ea",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 499.0,
+      "fill_date": "2026-11-17",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "SKHY",
       "direction": "short",
@@ -669,29 +692,6 @@
       "closed_by": "close-NBIS-event-reviewer-df97ecbd",
       "close_reason": "Target 115 hit pre-entry; filed Q3 OCF negative, funding premise revised",
       "closed_on": "2026-11-14"
-    },
-    {
-      "ticker": "META",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-12T03:33:08+00:00",
-      "entry": 628.77,
-      "stop": 661.0,
-      "target": 605.0,
-      "confidence": 0.55,
-      "horizon_days": 63,
-      "claim": "Trim to 25%; 605 base low before 661",
-      "id": "META-portfolio-manager-540936b5",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 628.77,
-      "fill_date": "2026-11-12",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
     }
   ]
 }
