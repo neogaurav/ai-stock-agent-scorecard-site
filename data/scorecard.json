@@ -1,22 +1,21 @@
 {
   "totals": {
     "predictions": 146,
-    "resolved": 86,
+    "resolved": 87,
     "OPEN": 36,
-    "TARGET_HIT": 38,
+    "TARGET_HIT": 39,
     "STOPPED": 29,
     "CANCELLED": 10,
     "PENDING_ENTRY": 13,
-    "CLOSED_EARLY": 19,
-    "CLOSING": 1
+    "CLOSED_EARLY": 19
   },
   "overall": {
     "n": 146,
-    "resolved": 86,
-    "win_rate": 0.5,
-    "hit_rate": 0.567,
-    "avg_r": -0.018,
-    "total_r": -1.52,
+    "resolved": 87,
+    "win_rate": 0.506,
+    "hit_rate": 0.574,
+    "avg_r": -0.006,
+    "total_r": -0.48,
     "early_closes": 19,
     "early_wins": 5,
     "early_losses": 14,
@@ -25,17 +24,17 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.23
+    "brier": 0.2319
   },
   "agents": [
     {
       "agent": "event-reviewer",
       "n": 7,
-      "resolved": 3,
-      "win_rate": 0.667,
+      "resolved": 4,
+      "win_rate": 0.75,
       "hit_rate": 1.0,
-      "avg_r": 0.242,
-      "total_r": 0.72,
+      "avg_r": 0.442,
+      "total_r": 1.77,
       "early_closes": 1,
       "early_wins": 0,
       "early_losses": 1,
@@ -83,9 +82,9 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 38,
+      "n": 39,
       "stated": 0.421,
-      "actual": 0.395,
+      "actual": 0.41,
       "verdict": "calibrated"
     },
     {
