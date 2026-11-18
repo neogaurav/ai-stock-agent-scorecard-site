@@ -1,6 +1,6 @@
 {
   "totals": {
-    "predictions": 166,
+    "predictions": 167,
     "resolved": 93,
     "CLOSING": 12,
     "TARGET_HIT": 43,
@@ -8,10 +8,10 @@
     "CANCELLED": 10,
     "PENDING_ENTRY": 19,
     "CLOSED_EARLY": 19,
-    "OPEN": 32
+    "OPEN": 33
   },
   "overall": {
-    "n": 166,
+    "n": 167,
     "resolved": 93,
     "win_rate": 0.516,
     "hit_rate": 0.581,
@@ -47,7 +47,7 @@
     },
     {
       "agent": "portfolio-manager",
-      "n": 78,
+      "n": 79,
       "resolved": 48,
       "win_rate": 0.521,
       "hit_rate": 0.605,
@@ -118,6 +118,29 @@
     "trader closed 8 calls early (3 up, 5 down, -0.40R on average)."
   ],
   "recent": [
+    {
+      "ticker": "CRWD",
+      "direction": "short",
+      "agent": "portfolio-manager",
+      "issued_at": "2026-11-18T18:23:09+00:00",
+      "entry": 235.15,
+      "stop": 247.0,
+      "target": 213.2,
+      "confidence": 0.37,
+      "horizon_days": 15,
+      "claim": "Trim to 0.65x before print; 213 before 247",
+      "id": "CRWD-portfolio-manager-a7986f07",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 235.15,
+      "fill_date": "2026-11-18",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "CRWD",
       "direction": "short",
@@ -663,29 +686,6 @@
       "r": null,
       "fill_price": null,
       "fill_date": null,
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 1,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "AVGO",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-17T02:49:20+00:00",
-      "entry": 333.4,
-      "stop": 360.3,
-      "target": 314.0,
-      "confidence": 0.5,
-      "horizon_days": 17,
-      "claim": "Trim to 70% before binaries; 314 before 360.3",
-      "id": "AVGO-portfolio-manager-086b47d1",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 333.4,
-      "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 1,
