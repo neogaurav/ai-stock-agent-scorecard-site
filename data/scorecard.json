@@ -6,9 +6,9 @@
     "TARGET_HIT": 42,
     "STOPPED": 29,
     "CANCELLED": 10,
-    "PENDING_ENTRY": 20,
+    "PENDING_ENTRY": 18,
     "CLOSED_EARLY": 19,
-    "OPEN": 31
+    "OPEN": 33
   },
   "overall": {
     "n": 163,
