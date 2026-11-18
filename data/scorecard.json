@@ -1,22 +1,22 @@
 {
   "totals": {
     "predictions": 163,
-    "resolved": 92,
+    "resolved": 93,
     "CLOSING": 12,
-    "TARGET_HIT": 42,
+    "TARGET_HIT": 43,
     "STOPPED": 31,
     "CANCELLED": 10,
     "PENDING_ENTRY": 18,
     "CLOSED_EARLY": 19,
-    "OPEN": 31
+    "OPEN": 30
   },
   "overall": {
     "n": 163,
-    "resolved": 92,
-    "win_rate": 0.511,
-    "hit_rate": 0.575,
-    "avg_r": 0.011,
-    "total_r": 1.0,
+    "resolved": 93,
+    "win_rate": 0.516,
+    "hit_rate": 0.581,
+    "avg_r": 0.02,
+    "total_r": 1.83,
     "early_closes": 19,
     "early_wins": 5,
     "early_losses": 14,
@@ -25,7 +25,7 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2324
+    "brier": 0.2338
   },
   "agents": [
     {
@@ -48,11 +48,11 @@
     {
       "agent": "portfolio-manager",
       "n": 77,
-      "resolved": 47,
-      "win_rate": 0.511,
-      "hit_rate": 0.595,
-      "avg_r": 0.004,
-      "total_r": 0.19,
+      "resolved": 48,
+      "win_rate": 0.521,
+      "hit_rate": 0.605,
+      "avg_r": 0.021,
+      "total_r": 1.01,
       "early_closes": 10,
       "early_wins": 2,
       "early_losses": 8,
@@ -83,9 +83,9 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 43,
+      "n": 44,
       "stated": 0.422,
-      "actual": 0.419,
+      "actual": 0.432,
       "verdict": "calibrated"
     },
     {
@@ -111,9 +111,9 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with +0.00R per call over 47 resolved calls.",
+    "portfolio-manager leads with +0.02R per call over 48 resolved calls.",
     "trader is net negative (-0.02R per call); weigh it less or change its horizon.",
-    "portfolio-manager loses on horizons under 30 days (-0.02R) but wins at 30+ (+0.03R).",
+    "portfolio-manager loses on horizons under 30 days (-0.02R) but wins at 30+ (+0.06R).",
     "portfolio-manager closed 10 calls early (2 up, 8 down, -0.43R on average).",
     "trader closed 8 calls early (3 up, 5 down, -0.40R on average)."
   ],
