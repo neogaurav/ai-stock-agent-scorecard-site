@@ -2,13 +2,13 @@
   "totals": {
     "predictions": 153,
     "resolved": 90,
-    "CLOSING": 4,
+    "CLOSING": 6,
     "TARGET_HIT": 42,
     "STOPPED": 29,
     "CANCELLED": 10,
-    "PENDING_ENTRY": 18,
+    "PENDING_ENTRY": 17,
     "CLOSED_EARLY": 19,
-    "OPEN": 31
+    "OPEN": 30
   },
   "overall": {
     "n": 153,
@@ -634,16 +634,16 @@
       "horizon_days": 21,
       "claim": "Staged trim; 100 before a close above 147.36",
       "id": "NBIS-portfolio-manager-a24b5a13",
-      "status": "OPEN",
+      "status": "CLOSING",
       "r": null,
       "fill_price": 115.88,
       "fill_date": "2026-11-14",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-NBIS-event-reviewer-2d8af263",
+      "close_reason": "Close below 109 met Sell trigger; NVDA guide strong; rating needs reset",
+      "closed_on": "2026-11-18"
     },
     {
       "ticker": "NBIS",
@@ -657,16 +657,16 @@
       "horizon_days": 21,
       "claim": "Sell rallies into 128.6; 100 before 147.36",
       "id": "NBIS-trader-3d6b9920",
-      "status": "PENDING_ENTRY",
+      "status": "CLOSING",
       "r": null,
       "fill_price": null,
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
       "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-NBIS-event-reviewer-2d8af263",
+      "close_reason": "Close below 109 met Sell trigger; NVDA guide strong; rating needs reset",
+      "closed_on": "2026-11-18"
     },
     {
       "ticker": "NVDA",
