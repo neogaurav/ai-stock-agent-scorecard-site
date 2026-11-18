@@ -2981,8 +2981,8 @@
     "horizon_days": 21,
     "confidence": 0.45,
     "claim": "Trim into print; 301 swing low before 367 reclaim",
-    "status": "OPEN",
-    "status_label": "Open",
+    "status": "CLOSING",
+    "status_label": "Closing at next open",
     "group": "open",
     "entered_on": "2026-11-18",
     "entered_at": 331.73,
@@ -2990,10 +2990,10 @@
     "exited_at": null,
     "r": null,
     "days_held": null,
-    "early": false,
+    "early": true,
     "reentry_of": null,
-    "close_reason": null,
-    "closed_on": null
+    "close_reason": "FQ1 beat and FY27 guide raise; Underweight short thesis in doubt",
+    "closed_on": "2026-11-18"
   },
   {
     "id": "PANW-trader-9f779aee",
@@ -3009,8 +3009,8 @@
     "horizon_days": 21,
     "confidence": 0.45,
     "claim": "Trim before print; 301 swing low before 50-SMA reclaim at 367",
-    "status": "OPEN",
-    "status_label": "Open",
+    "status": "CLOSING",
+    "status_label": "Closing at next open",
     "group": "open",
     "entered_on": "2026-11-18",
     "entered_at": 331.73,
@@ -3018,10 +3018,10 @@
     "exited_at": null,
     "r": null,
     "days_held": null,
-    "early": false,
+    "early": true,
     "reentry_of": null,
-    "close_reason": null,
-    "closed_on": null
+    "close_reason": "FQ1 beat and FY27 guide raise; Underweight short thesis in doubt",
+    "closed_on": "2026-11-18"
   },
   {
     "id": "CRWD-trader-97631a86",

@@ -2,13 +2,13 @@
   "totals": {
     "predictions": 167,
     "resolved": 93,
-    "CLOSING": 12,
+    "CLOSING": 14,
     "TARGET_HIT": 43,
     "STOPPED": 31,
     "CANCELLED": 10,
     "PENDING_ENTRY": 19,
     "CLOSED_EARLY": 19,
-    "OPEN": 33
+    "OPEN": 31
   },
   "overall": {
     "n": 167,
@@ -176,16 +176,16 @@
       "horizon_days": 21,
       "claim": "Trim into print; 301 swing low before 367 reclaim",
       "id": "PANW-portfolio-manager-735daedd",
-      "status": "OPEN",
+      "status": "CLOSING",
       "r": null,
       "fill_price": 331.73,
       "fill_date": "2026-11-18",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 0,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-PANW-event-reviewer-94cba66c",
+      "close_reason": "FQ1 beat and FY27 guide raise; Underweight short thesis in doubt",
+      "closed_on": "2026-11-18"
     },
     {
       "ticker": "PANW",
@@ -199,16 +199,16 @@
       "horizon_days": 21,
       "claim": "Trim before print; 301 swing low before 50-SMA reclaim at 367",
       "id": "PANW-trader-9f779aee",
-      "status": "OPEN",
+      "status": "CLOSING",
       "r": null,
       "fill_price": 331.73,
       "fill_date": "2026-11-18",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 0,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-PANW-event-reviewer-94cba66c",
+      "close_reason": "FQ1 beat and FY27 guide raise; Underweight short thesis in doubt",
+      "closed_on": "2026-11-18"
     },
     {
       "ticker": "MXL",
