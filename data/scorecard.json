@@ -433,7 +433,7 @@
       "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -456,7 +456,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -479,7 +479,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -502,7 +502,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -525,7 +525,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -548,7 +548,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -571,7 +571,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -594,7 +594,7 @@
       "fill_date": null,
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -617,7 +617,7 @@
       "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -640,7 +640,7 @@
       "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -663,7 +663,7 @@
       "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -686,7 +686,7 @@
       "fill_date": "2026-11-17",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 0,
+      "bars_used": 1,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
