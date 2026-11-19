@@ -1,21 +1,21 @@
 {
   "totals": {
     "predictions": 177,
-    "resolved": 114,
+    "resolved": 115,
     "CLOSED_EARLY": 30,
-    "TARGET_HIT": 45,
+    "TARGET_HIT": 46,
     "STOPPED": 39,
     "CANCELLED": 13,
     "PENDING_ENTRY": 18,
-    "OPEN": 32
+    "OPEN": 31
   },
   "overall": {
     "n": 177,
-    "resolved": 114,
-    "win_rate": 0.5,
-    "hit_rate": 0.536,
-    "avg_r": -0.012,
-    "total_r": -1.34,
+    "resolved": 115,
+    "win_rate": 0.504,
+    "hit_rate": 0.541,
+    "avg_r": -0.0,
+    "total_r": -0.01,
     "early_closes": 30,
     "early_wins": 12,
     "early_losses": 18,
@@ -24,7 +24,7 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2304
+    "brier": 0.2319
   },
   "agents": [
     {
@@ -47,11 +47,11 @@
     {
       "agent": "portfolio-manager",
       "n": 84,
-      "resolved": 59,
-      "win_rate": 0.508,
-      "hit_rate": 0.558,
-      "avg_r": -0.018,
-      "total_r": -1.08,
+      "resolved": 60,
+      "win_rate": 0.517,
+      "hit_rate": 0.568,
+      "avg_r": 0.004,
+      "total_r": 0.25,
       "early_closes": 16,
       "early_wins": 6,
       "early_losses": 10,
@@ -82,9 +82,9 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 50,
-      "stated": 0.423,
-      "actual": 0.38,
+      "n": 51,
+      "stated": 0.422,
+      "actual": 0.392,
       "verdict": "calibrated"
     },
     {
@@ -110,10 +110,9 @@
     }
   ],
   "insights": [
-    "portfolio-manager leads with -0.02R per call over 59 resolved calls.",
-    "portfolio-manager is net negative (-0.02R per call); weigh it less or change its horizon.",
+    "portfolio-manager leads with +0.00R per call over 60 resolved calls.",
     "trader is net negative (-0.04R per call); weigh it less or change its horizon.",
-    "portfolio-manager loses on horizons under 30 days (-0.12R) but wins at 30+ (+0.10R).",
+    "portfolio-manager loses on horizons under 30 days (-0.12R) but wins at 30+ (+0.14R).",
     "trader loses on horizons under 30 days (-0.13R) but wins at 30+ (+0.12R).",
     "portfolio-manager closed 16 calls early (6 up, 10 down, -0.16R on average).",
     "trader closed 13 calls early (6 up, 7 down, -0.12R on average)."
