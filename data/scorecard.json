@@ -1,16 +1,17 @@
 {
   "totals": {
-    "predictions": 177,
+    "predictions": 178,
     "resolved": 116,
     "CLOSED_EARLY": 30,
     "TARGET_HIT": 47,
     "STOPPED": 39,
     "CANCELLED": 13,
     "PENDING_ENTRY": 18,
-    "OPEN": 30
+    "OPEN": 29,
+    "CLOSING": 2
   },
   "overall": {
-    "n": 177,
+    "n": 178,
     "resolved": 116,
     "win_rate": 0.509,
     "hit_rate": 0.547,
@@ -46,7 +47,7 @@
     },
     {
       "agent": "trader",
-      "n": 85,
+      "n": 86,
       "resolved": 52,
       "win_rate": 0.481,
       "hit_rate": 0.487,
@@ -117,6 +118,29 @@
     "portfolio-manager closed 16 calls early (6 up, 10 down, -0.16R on average)."
   ],
   "recent": [
+    {
+      "ticker": "NBIS",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-20T01:45:29+00:00",
+      "entry": 96.92,
+      "stop": 115.5,
+      "target": 86.8,
+      "confidence": 0.52,
+      "horizon_days": 21,
+      "claim": "Exit residual; 86.80 shelf before 115.5 rejection high",
+      "id": "NBIS-trader-aa72b4d5",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 96.92,
+      "fill_date": "2026-11-20",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "POWL",
       "direction": "long",
@@ -635,16 +659,16 @@
       "horizon_days": 21,
       "claim": "Trim NVDA gap into broken support; 100 before 133",
       "id": "NBIS-portfolio-manager-e123848b",
-      "status": "OPEN",
+      "status": "CLOSING",
       "r": null,
       "fill_price": 115.0,
       "fill_date": "2026-11-19",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 1,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-NBIS-event-reviewer-e502ee58",
+      "close_reason": "Close below 104.75 fired the decision's Sell-to-zero rule; target 100 reached",
+      "closed_on": "2026-11-20"
     },
     {
       "ticker": "NBIS",
@@ -658,39 +682,16 @@
       "horizon_days": 21,
       "claim": "Trim NVDA bounce into broken support; 100 before 133",
       "id": "NBIS-trader-51ad8188",
-      "status": "OPEN",
+      "status": "CLOSING",
       "r": null,
       "fill_price": 115.0,
       "fill_date": "2026-11-19",
       "exit_price": null,
       "exit_date": null,
       "bars_used": 1,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "SNPS",
-      "direction": "short",
-      "agent": "event-reviewer",
-      "issued_at": "2026-11-18T02:02:48+00:00",
-      "entry": 435.51,
-      "stop": 491.4,
-      "target": 422.5,
-      "confidence": 0.5,
-      "horizon_days": 16,
-      "claim": "440 cut fired; 422.5 before 491.4 into FQ4",
-      "id": "SNPS-event-reviewer-028f5d5a",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 435.51,
-      "fill_date": "2026-11-18",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 1,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
+      "closed_by": "close-NBIS-event-reviewer-e502ee58",
+      "close_reason": "Close below 104.75 fired the decision's Sell-to-zero rule; target 100 reached",
+      "closed_on": "2026-11-20"
     }
   ]
 }
