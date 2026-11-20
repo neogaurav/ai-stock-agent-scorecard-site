@@ -1,17 +1,17 @@
 {
   "totals": {
-    "predictions": 189,
+    "predictions": 190,
     "resolved": 116,
     "CLOSED_EARLY": 30,
     "TARGET_HIT": 47,
     "STOPPED": 39,
     "CANCELLED": 13,
     "PENDING_ENTRY": 18,
-    "OPEN": 34,
+    "OPEN": 35,
     "CLOSING": 8
   },
   "overall": {
-    "n": 189,
+    "n": 190,
     "resolved": 116,
     "win_rate": 0.509,
     "hit_rate": 0.547,
@@ -47,7 +47,7 @@
     },
     {
       "agent": "trader",
-      "n": 91,
+      "n": 92,
       "resolved": 52,
       "win_rate": 0.481,
       "hit_rate": 0.487,
@@ -118,6 +118,29 @@
     "portfolio-manager closed 16 calls early (6 up, 10 down, -0.16R on average)."
   ],
   "recent": [
+    {
+      "ticker": "LRCX",
+      "direction": "short",
+      "agent": "trader",
+      "issued_at": "2026-11-20T03:46:27+00:00",
+      "entry": 203.68,
+      "stop": 230.0,
+      "target": 185.2,
+      "confidence": 0.5,
+      "horizon_days": 63,
+      "claim": "Trim to 25-35%; 185.20 retest before 230 reclaim",
+      "id": "LRCX-trader-7fd0fe54",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 203.68,
+      "fill_date": "2026-11-20",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "TSM",
       "direction": "short",
@@ -669,29 +692,6 @@
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
-    },
-    {
-      "ticker": "PANW",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-18T17:56:44+00:00",
-      "entry": 331.73,
-      "stop": 367.0,
-      "target": 301.0,
-      "confidence": 0.45,
-      "horizon_days": 21,
-      "claim": "Trim into print; 301 swing low before 367 reclaim",
-      "id": "PANW-portfolio-manager-735daedd",
-      "status": "CLOSED_EARLY",
-      "r": -0.683,
-      "fill_price": 331.73,
-      "fill_date": "2026-11-18",
-      "exit_price": 355.81,
-      "exit_date": "2026-11-19",
-      "bars_used": 1,
-      "closed_by": "close-PANW-event-reviewer-94cba66c",
-      "close_reason": "FQ1 beat and FY27 guide raise; Underweight short thesis in doubt",
-      "closed_on": "2026-11-18"
     }
   ]
 }
