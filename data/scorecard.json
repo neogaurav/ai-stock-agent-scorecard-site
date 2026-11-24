@@ -1,21 +1,21 @@
 {
   "totals": {
     "predictions": 232,
-    "resolved": 168,
+    "resolved": 170,
     "CLOSED_EARLY": 34,
-    "TARGET_HIT": 70,
+    "TARGET_HIT": 72,
     "STOPPED": 64,
     "CANCELLED": 18,
     "PENDING_ENTRY": 20,
-    "OPEN": 26
+    "OPEN": 24
   },
   "overall": {
     "n": 232,
-    "resolved": 168,
-    "win_rate": 0.5,
-    "hit_rate": 0.522,
-    "avg_r": -0.035,
-    "total_r": -5.91,
+    "resolved": 170,
+    "win_rate": 0.506,
+    "hit_rate": 0.529,
+    "avg_r": -0.007,
+    "total_r": -1.15,
     "early_closes": 34,
     "early_wins": 14,
     "early_losses": 20,
@@ -45,35 +45,35 @@
       "reentry_avg_r": null
     },
     {
-      "agent": "trader",
-      "n": 112,
-      "resolved": 74,
-      "win_rate": 0.473,
-      "hit_rate": 0.467,
-      "avg_r": -0.053,
-      "total_r": -3.93,
-      "early_closes": 14,
-      "early_wins": 7,
-      "early_losses": 7,
-      "early_avg_r": -0.102,
-      "cancelled": 14,
-      "reentries": 0,
-      "reentries_resolved": 0,
-      "reentry_avg_r": null
-    },
-    {
       "agent": "portfolio-manager",
       "n": 111,
-      "resolved": 86,
-      "win_rate": 0.488,
-      "hit_rate": 0.522,
-      "avg_r": -0.081,
-      "total_r": -6.97,
+      "resolved": 87,
+      "win_rate": 0.494,
+      "hit_rate": 0.529,
+      "avg_r": -0.032,
+      "total_r": -2.75,
       "early_closes": 19,
       "early_wins": 7,
       "early_losses": 12,
       "early_avg_r": -0.192,
       "cancelled": 4,
+      "reentries": 0,
+      "reentries_resolved": 0,
+      "reentry_avg_r": null
+    },
+    {
+      "agent": "trader",
+      "n": 112,
+      "resolved": 75,
+      "win_rate": 0.48,
+      "hit_rate": 0.475,
+      "avg_r": -0.045,
+      "total_r": -3.38,
+      "early_closes": 14,
+      "early_wins": 7,
+      "early_losses": 7,
+      "early_avg_r": -0.102,
+      "cancelled": 14,
       "reentries": 0,
       "reentries_resolved": 0,
       "reentry_avg_r": null
@@ -89,9 +89,9 @@
     },
     {
       "bucket": "50\u201360%",
-      "n": 45,
+      "n": 47,
       "stated": 0.515,
-      "actual": 0.644,
+      "actual": 0.66,
       "verdict": "underconfident"
     },
     {
@@ -111,12 +111,12 @@
   ],
   "insights": [
     "event-reviewer leads with +0.62R per call over 8 resolved calls.",
-    "trader is net negative (-0.05R per call); weigh it less or change its horizon.",
-    "portfolio-manager is net negative (-0.08R per call); weigh it less or change its horizon.",
-    "portfolio-manager loses on horizons under 30 days (-0.22R) but wins at 30+ (+0.05R).",
-    "trader loses on horizons under 30 days (-0.20R) but wins at 30+ (+0.16R).",
-    "trader closed 14 calls early (7 up, 7 down, -0.10R on average).",
-    "portfolio-manager closed 19 calls early (7 up, 12 down, -0.19R on average)."
+    "portfolio-manager is net negative (-0.03R per call); weigh it less or change its horizon.",
+    "trader is net negative (-0.04R per call); weigh it less or change its horizon.",
+    "portfolio-manager loses on horizons under 30 days (-0.12R) but wins at 30+ (+0.05R).",
+    "trader loses on horizons under 30 days (-0.18R) but wins at 30+ (+0.16R).",
+    "portfolio-manager closed 19 calls early (7 up, 12 down, -0.19R on average).",
+    "trader closed 14 calls early (7 up, 7 down, -0.10R on average)."
   ],
   "recent": [
     {
