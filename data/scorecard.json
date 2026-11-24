@@ -1,22 +1,21 @@
 {
   "totals": {
     "predictions": 232,
-    "resolved": 167,
+    "resolved": 168,
     "CLOSED_EARLY": 34,
-    "TARGET_HIT": 69,
+    "TARGET_HIT": 70,
     "STOPPED": 64,
     "CANCELLED": 18,
     "PENDING_ENTRY": 20,
-    "OPEN": 26,
-    "CLOSING": 1
+    "OPEN": 26
   },
   "overall": {
     "n": 232,
-    "resolved": 167,
-    "win_rate": 0.497,
-    "hit_rate": 0.519,
-    "avg_r": -0.038,
-    "total_r": -6.28,
+    "resolved": 168,
+    "win_rate": 0.5,
+    "hit_rate": 0.522,
+    "avg_r": -0.036,
+    "total_r": -6.02,
     "early_closes": 34,
     "early_wins": 14,
     "early_losses": 20,
@@ -25,17 +24,17 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2374
+    "brier": 0.2371
   },
   "agents": [
     {
       "agent": "event-reviewer",
       "n": 9,
-      "resolved": 7,
-      "win_rate": 0.857,
+      "resolved": 8,
+      "win_rate": 0.875,
       "hit_rate": 1.0,
-      "avg_r": 0.659,
-      "total_r": 4.62,
+      "avg_r": 0.609,
+      "total_r": 4.87,
       "early_closes": 1,
       "early_wins": 0,
       "early_losses": 1,
@@ -90,9 +89,9 @@
     },
     {
       "bucket": "50\u201360%",
-      "n": 44,
-      "stated": 0.514,
-      "actual": 0.636,
+      "n": 45,
+      "stated": 0.515,
+      "actual": 0.644,
       "verdict": "underconfident"
     },
     {
@@ -111,7 +110,7 @@
     }
   ],
   "insights": [
-    "trader leads with -0.05R per call over 74 resolved calls.",
+    "event-reviewer leads with +0.61R per call over 8 resolved calls.",
     "trader is net negative (-0.05R per call); weigh it less or change its horizon.",
     "portfolio-manager is net negative (-0.08R per call); weigh it less or change its horizon.",
     "portfolio-manager loses on horizons under 30 days (-0.22R) but wins at 30+ (+0.05R).",
@@ -414,7 +413,7 @@
       "fill_date": "2026-11-21",
       "exit_price": 167.04,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -437,7 +436,7 @@
       "fill_date": "2026-11-21",
       "exit_price": 167.04,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -460,7 +459,7 @@
       "fill_date": "2026-11-23",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -483,7 +482,7 @@
       "fill_date": "2026-11-23",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -506,7 +505,7 @@
       "fill_date": "2026-11-21",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -529,7 +528,7 @@
       "fill_date": "2026-11-21",
       "exit_price": null,
       "exit_date": null,
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -552,7 +551,7 @@
       "fill_date": "2026-11-21",
       "exit_price": 127.11,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -575,7 +574,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 127.11,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -598,7 +597,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 435.0,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -621,7 +620,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 435.0,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -644,7 +643,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 50.42,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -667,7 +666,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 50.42,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
@@ -690,7 +689,7 @@
       "fill_date": "2026-11-23",
       "exit_price": 282.49,
       "exit_date": "2026-11-23",
-      "bars_used": 1,
+      "bars_used": 2,
       "closed_by": null,
       "close_reason": null,
       "closed_on": null
