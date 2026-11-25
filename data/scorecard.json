@@ -1,22 +1,22 @@
 {
   "totals": {
     "predictions": 243,
-    "resolved": 183,
+    "resolved": 185,
     "CLOSED_EARLY": 34,
-    "TARGET_HIT": 84,
+    "TARGET_HIT": 86,
     "STOPPED": 65,
     "CANCELLED": 18,
     "PENDING_ENTRY": 18,
-    "OPEN": 22,
+    "OPEN": 20,
     "CLOSING": 2
   },
   "overall": {
     "n": 243,
-    "resolved": 183,
-    "win_rate": 0.536,
-    "hit_rate": 0.564,
-    "avg_r": 0.098,
-    "total_r": 17.99,
+    "resolved": 185,
+    "win_rate": 0.541,
+    "hit_rate": 0.57,
+    "avg_r": 0.113,
+    "total_r": 20.81,
     "early_closes": 34,
     "early_wins": 14,
     "early_losses": 20,
@@ -25,7 +25,7 @@
     "reentries": 0,
     "reentries_resolved": 0,
     "reentry_avg_r": null,
-    "brier": 0.2429
+    "brier": 0.2439
   },
   "agents": [
     {
@@ -48,11 +48,11 @@
     {
       "agent": "portfolio-manager",
       "n": 116,
-      "resolved": 93,
-      "win_rate": 0.527,
-      "hit_rate": 0.568,
-      "avg_r": 0.079,
-      "total_r": 7.31,
+      "resolved": 94,
+      "win_rate": 0.532,
+      "hit_rate": 0.573,
+      "avg_r": 0.09,
+      "total_r": 8.47,
       "early_closes": 19,
       "early_wins": 7,
       "early_losses": 12,
@@ -65,11 +65,11 @@
     {
       "agent": "trader",
       "n": 117,
-      "resolved": 82,
-      "win_rate": 0.512,
-      "hit_rate": 0.515,
-      "avg_r": 0.069,
-      "total_r": 5.69,
+      "resolved": 83,
+      "win_rate": 0.518,
+      "hit_rate": 0.522,
+      "avg_r": 0.089,
+      "total_r": 7.35,
       "early_closes": 14,
       "early_wins": 7,
       "early_losses": 7,
@@ -83,9 +83,9 @@
   "calibration": [
     {
       "bucket": "under 50%",
-      "n": 94,
+      "n": 96,
       "stated": 0.419,
-      "actual": 0.479,
+      "actual": 0.49,
       "verdict": "close"
     },
     {
@@ -112,8 +112,8 @@
   ],
   "insights": [
     "event-reviewer leads with +0.62R per call over 8 resolved calls.",
-    "portfolio-manager loses on horizons under 30 days (-0.05R) but wins at 30+ (+0.20R).",
-    "trader loses on horizons under 30 days (-0.09R) but wins at 30+ (+0.29R).",
+    "portfolio-manager loses on horizons under 30 days (-0.05R) but wins at 30+ (+0.22R).",
+    "trader loses on horizons under 30 days (-0.09R) but wins at 30+ (+0.33R).",
     "portfolio-manager closed 19 calls early (7 up, 12 down, -0.19R on average).",
     "trader closed 14 calls early (7 up, 7 down, -0.10R on average)."
   ],
