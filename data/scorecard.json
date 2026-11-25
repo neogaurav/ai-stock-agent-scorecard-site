@@ -1,16 +1,17 @@
 {
   "totals": {
-    "predictions": 234,
+    "predictions": 235,
     "resolved": 170,
     "CLOSED_EARLY": 34,
     "TARGET_HIT": 72,
     "STOPPED": 64,
     "CANCELLED": 18,
     "PENDING_ENTRY": 22,
-    "OPEN": 24
+    "OPEN": 23,
+    "CLOSING": 2
   },
   "overall": {
-    "n": 234,
+    "n": 235,
     "resolved": 170,
     "win_rate": 0.506,
     "hit_rate": 0.529,
@@ -29,7 +30,7 @@
   "agents": [
     {
       "agent": "event-reviewer",
-      "n": 9,
+      "n": 10,
       "resolved": 8,
       "win_rate": 0.875,
       "hit_rate": 1.0,
@@ -119,6 +120,29 @@
     "trader closed 14 calls early (7 up, 7 down, -0.10R on average)."
   ],
   "recent": [
+    {
+      "ticker": "CLS",
+      "direction": "short",
+      "agent": "event-reviewer",
+      "issued_at": "2026-11-25T01:52:23+00:00",
+      "entry": 196.64,
+      "stop": 246.6,
+      "target": 179.0,
+      "confidence": 0.45,
+      "horizon_days": 40,
+      "claim": "Cut to 0.25x below 197.50; 179 before 246.6",
+      "id": "CLS-event-reviewer-83cb8db6",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 196.64,
+      "fill_date": "2026-11-25",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "DELL",
       "direction": "long",
@@ -665,29 +689,6 @@
       "fill_price": 428.4700012207031,
       "fill_date": "2026-11-23",
       "exit_price": 435.0,
-      "exit_date": "2026-11-23",
-      "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "MXL",
-      "direction": "short",
-      "agent": "portfolio-manager",
-      "issued_at": "2026-11-21T03:11:38+00:00",
-      "entry": 44.1,
-      "stop": 48.2,
-      "target": 35.5,
-      "confidence": 0.33,
-      "horizon_days": 42,
-      "claim": "Exit longs; short failed bounce at 44.1, 35.5 before 48.2",
-      "id": "MXL-portfolio-manager-d0e9f8e1",
-      "status": "STOPPED",
-      "r": -1.0,
-      "fill_price": 50.41999816894531,
-      "fill_date": "2026-11-23",
-      "exit_price": 50.42,
       "exit_date": "2026-11-23",
       "bars_used": 2,
       "closed_by": null,
