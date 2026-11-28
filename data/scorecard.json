@@ -1,16 +1,16 @@
 {
   "totals": {
-    "predictions": 247,
+    "predictions": 248,
     "resolved": 186,
     "CLOSED_EARLY": 34,
     "TARGET_HIT": 87,
     "STOPPED": 65,
     "CANCELLED": 22,
     "PENDING_ENTRY": 8,
-    "OPEN": 31
+    "OPEN": 32
   },
   "overall": {
-    "n": 247,
+    "n": 248,
     "resolved": 186,
     "win_rate": 0.543,
     "hit_rate": 0.572,
@@ -29,7 +29,7 @@
   "agents": [
     {
       "agent": "event-reviewer",
-      "n": 10,
+      "n": 11,
       "resolved": 8,
       "win_rate": 0.875,
       "hit_rate": 1.0,
@@ -117,6 +117,29 @@
     "trader closed 14 calls early (7 up, 7 down, -0.10R on average)."
   ],
   "recent": [
+    {
+      "ticker": "AVGO",
+      "direction": "short",
+      "agent": "event-reviewer",
+      "issued_at": "2026-11-28T01:59:40+00:00",
+      "entry": 300.86,
+      "stop": 334.4,
+      "target": 289.0,
+      "confidence": 0.5,
+      "horizon_days": 9,
+      "claim": "Underweight 35-40% into 12-09; 289 before 334.4 close",
+      "id": "AVGO-event-reviewer-1cb46c9a",
+      "status": "OPEN",
+      "r": null,
+      "fill_price": 300.86,
+      "fill_date": "2026-11-28",
+      "exit_price": null,
+      "exit_date": null,
+      "bars_used": 0,
+      "closed_by": null,
+      "close_reason": null,
+      "closed_on": null
+    },
     {
       "ticker": "STX",
       "direction": "short",
@@ -658,29 +681,6 @@
       "horizon_days": 42,
       "claim": "Trim on Zscaler deal overhang; 190 before 232",
       "id": "CRWD-portfolio-manager-d1fe3fa4",
-      "status": "OPEN",
-      "r": null,
-      "fill_price": 202.00999450683594,
-      "fill_date": "2026-11-25",
-      "exit_price": null,
-      "exit_date": null,
-      "bars_used": 2,
-      "closed_by": null,
-      "close_reason": null,
-      "closed_on": null
-    },
-    {
-      "ticker": "CRWD",
-      "direction": "short",
-      "agent": "trader",
-      "issued_at": "2026-11-24T02:30:31+00:00",
-      "entry": 206.39,
-      "stop": 232.0,
-      "target": 190.0,
-      "confidence": 0.4,
-      "horizon_days": 42,
-      "claim": "Trim on deal overhang; 190 gap fill before 232",
-      "id": "CRWD-trader-8a78fcb2",
       "status": "OPEN",
       "r": null,
       "fill_price": 202.00999450683594,
